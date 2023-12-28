@@ -1,9 +1,9 @@
 # Overview
----
+
 CLI tool to easily get differential parts of files built with buffio, os and flags libraries.
 
 # Usage
----
+
 Simply pass two text files as parameters like below (flags are optional):
 ```
 godiffer [<flag>] <input_file1> <input_file2>
