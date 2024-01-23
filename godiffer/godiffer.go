@@ -51,8 +51,7 @@ func Run(f1, f2 string, fn func(arr1, arr2 []string) string) {
 	for s2.Scan() {
 		f2arr = append(f2arr, s2.Text())
 	}
-	result := fn(f1arr, f2arr)
-	fmt.Println(result)
+	fmt.Println(fn(f1arr, f2arr))
 	os.Exit(0)
 }
 
